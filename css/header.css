@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); /*EMBASA O FUNDO*/
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.header-image{
+    width: 40px;
+    filter: grayscale(100%)
+        
+}
+.header-title{
+    height: 40px;
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    
+}
+.image-plus-title{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.header-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-iten{
+    font-family: 'Jura', sans-serif;
+    color: #fff2e7;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.header-menu-iten:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .5s;
+}
+
+.header-menu-iten-button{
+    background-color: #ffa500;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+    color: black;
+    border-color: transparent;
+}
+
+.header-menu-iten-button:hover{
+    background-color: #ffa500;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
